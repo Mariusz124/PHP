@@ -1,0 +1,48 @@
+.siatka{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+body{
+    font-family:Helvetica;
+}
+.baner,.stopka{
+    background-color: #00838F;
+    color:white;
+    padding:5px;
+    font-size: 130%;
+    text-align: center;
+}
+.lewy1,.lewy2{
+    background-color: #EFEFEF ;
+}
+.lewy1{
+    height: 150px;
+}
+.lewy2{
+    height:300px;
+}
+.prawy{
+    background-color: #4FB3BF;
+    height: 450px;
+    text-align: center;
+    
+}
+img{
+    box-shadow: 10px 10px 7px; color: dimgray;
+    margin:20px;
+}
+table{
+    
+    margin: auto;
+    width: 80%;
+}
+th,td{
+    border:1px solid  #4FB3BF;
+    padding: 4px;
+}
+tr:hover,td:hover{
+    background-color:  #4FB3BF;
+}
+.left_side{
+    background-color: #EFEFEF ;
+}
